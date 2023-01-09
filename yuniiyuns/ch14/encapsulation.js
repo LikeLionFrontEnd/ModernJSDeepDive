@@ -18,7 +18,7 @@ var Counter = (function () {
 // private 변수는 외부로 노출되지 않는다.
 
 console.log(Counter.num); // undefined
-console.log(Counter.increase());
-console.log(Counter.increase());
-console.log(Counter.decrease());
-console.log(Counter.decrease());
+console.log(Counter.increase()); // 1
+console.log(Counter.increase()); // 2
+console.log(Counter.decrease()); // 1
+console.log(Counter.decrease()); // 0
