@@ -8,3 +8,14 @@ foo.method = function () {
 };
 
 foo.method();
+
+var person = {
+  name: "kim",
+  type: "인간",
+};
+
+Object.defineProperty(person, "property1", {
+  value: "인간",
+});
+
+console.log(person);
